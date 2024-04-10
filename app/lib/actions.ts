@@ -64,8 +64,8 @@ export async function createInvoice(prevState: IState, formData: FormData) {
 const UpdateInvoice = FromSchema.omit({ id: true, date: true });
 export async function updateInvoice(
   id: string,
-  formData: FormData,
   prevState: IState,
+  formData: FormData,
 ) {
   const validatedFields = UpdateInvoice.safeParse({
     customerId: formData.get('customerId'),
