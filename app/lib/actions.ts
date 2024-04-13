@@ -127,5 +127,5 @@ export async function authenticate(
       }
     }
   }
-  throw error;
+  throw Error;
 }
