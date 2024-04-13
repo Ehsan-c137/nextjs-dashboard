@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 
-export const MetaData: Metadata = {
+export const metadata: Metadata = {
   title: 'Customers',
 };
 
