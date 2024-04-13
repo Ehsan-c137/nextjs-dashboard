@@ -12,7 +12,7 @@ import {
 import CardWrapper from '@/app/ui/dashboard/cards';
 import { Metadata } from 'next';
 
-export const MetaData: Metadata = {
+export const metadata: Metadata = {
   title: 'login',
 };
 
